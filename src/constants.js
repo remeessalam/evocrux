@@ -29,7 +29,9 @@ export { logo };
 
 // client details
 export const clientDetails = {
-  phone: "0000000000",
+  whatsapp: "8973179735",
+  phone: "91-8973179735",
+  phone2: "91-9600250761",
   email: "abc@xyz.com",
   address: "ABC Street, City, Country",
 };
