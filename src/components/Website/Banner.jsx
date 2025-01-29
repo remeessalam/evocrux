@@ -62,7 +62,7 @@ const Banner = () => {
         }}
         controls={false}
       />
-      <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-black/60"></div>
       <div className="absolute w-full h-fit left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 wrapper flex flex-col-reverse md:grid grid-cols-[60%_auto] items-center md:gap-10">
         <div
           data-aos="fade-right"
@@ -71,9 +71,13 @@ const Banner = () => {
           <p className="text-xl   tracking-wide text-white mt-2">
             Welcome to <span className="text-primary font-bold">EVOCRUX</span>
           </p>
-          <h1 className="heading-1 text-white capitalize">
+          <h1 className="heading-1 text-white capitalize mt-2">
             Your Partner in Digital Innovation
           </h1>
+          <p className="text-lg text-white py-5">
+            Discover how our cutting-edge solutions can give your business a
+            competitive edge and make an impact in your industry.
+          </p>
           <Link to="/contact-us" className="primary-btn mt-5">
             Get Started Now
           </Link>
