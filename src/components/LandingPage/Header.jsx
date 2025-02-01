@@ -81,7 +81,7 @@ const Header = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             <Hamburger
-              color="#17012C"
+              color="white"
               size="26"
               toggled={isOpen}
               rounded
@@ -106,12 +106,12 @@ const Header = () => {
           <button
             title="Close"
             onClick={() => setIsOpen(false)}
-            className="  text-[2rem]"
+            className="  text-[2rem] text-white"
           >
             <IoMdClose />
           </button>
         </div>
-        <div className="py-4 px-7 flex flex-col gap-4">
+        <div className="py-4 px-7 flex flex-col gap-4 text-white">
           {/* {landingPageHeaderLinks.map(({ id, link, title }) => (
             <ScrollLink
               onClick={() => setIsOpen(false)}
@@ -133,7 +133,7 @@ const Header = () => {
             smooth={true}
             duration={500}
             offset={-20}
-            className="text-2xl font-medium link"
+            className="text-2xl font-medium link text-white"
           >
             Home
           </ScrollLink>

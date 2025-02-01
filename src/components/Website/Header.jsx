@@ -71,12 +71,14 @@ const Header = () => {
         </div>
       </div>
       <Drawer
+        overlayColor="black"
         open={isOpen}
         onClose={() => setIsOpen(false)}
         direction="right"
-        className="z-10 p-2"
+        style={{ backgroundColor: "black!important", width: "80vw" }}
+        className="z-10 p-2 !bg-black EZDrawer"
       >
-        <div className="mb-6 flex items-center justify-between pr-[.7rem] py-[.4rem]">
+        <div className="mb-6 flex items-center bg-black justify-between pr-[.7rem] py-[.4rem]">
           <img
             loading="lazy"
             src={logo}
@@ -86,12 +88,12 @@ const Header = () => {
           <button
             title="Close"
             onClick={() => setIsOpen(false)}
-            className="  text-[2rem]"
+            className="  text-[2rem] text-white"
           >
             <IoMdClose />
           </button>
         </div>
-        <div className="py-4 px-7 flex flex-col gap-4">
+        <div className="py-4 px-7 flex flex-col gap-4 text-white">
           {websitePagesLinks.map(({ id, link, title }) => (
             <Link
               onClick={() => setIsOpen(false)}
