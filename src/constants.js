@@ -32,7 +32,7 @@ export const clientDetails = {
   whatsapp: "8973179735",
   phone: "91-8973179735",
   phone2: "91-9600250761",
-  email: "abc@xyz.com",
+  email: "official.santhoshgowda@gmail.com",
   address: "Bangalore, India - 560100 (Electronic City, IT Hub)",
 };
 
