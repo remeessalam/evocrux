@@ -136,7 +136,7 @@ const Home = () => {
       <CallToAction />
       <Portfolio />
       <Testimonials />
-      <section className="wrapper">
+      {/* <section className="wrapper">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 pt-[5rem] pb-[3rem]">
           <div className="md:aspect-[3/4] w-full overflow-hidden flex flex-col">
             <img
@@ -157,7 +157,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
       <BrandLogos />
       <GetInTouch />
       <Footer />
