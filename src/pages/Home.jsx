@@ -8,7 +8,8 @@ import BrandLogos from "../components/BrandLogos";
 import Portfolio from "../components/Portfolio";
 import Testimonials from "../components/Testimonials";
 import CallToAction from "../components/CallToAction";
-
+import mission from "../assets/mission.png";
+import vision from "../assets/vision.png";
 const Banner = lazy(() => import("../components/Website/Banner"));
 const TrustWorthySection = lazy(() =>
   import("../components/TrustWorthySection")
@@ -44,9 +45,7 @@ const Home = () => {
               />
             </div>
             <div data-aos="fade-right" className="flex flex-col gap-5">
-              <h3 className="heading">
-                Innovation to transform your organization.
-              </h3>
+              <h3 className="heading">Where Solutions Evolve</h3>
               <p className="description">
                 At EVOCRUX, we believe that technology should work for you. Our
                 team is dedicated to delivering innovative solutions that help
@@ -58,12 +57,38 @@ const Home = () => {
                 enhance user experiences, streamline operations, or leverage
                 emerging technologies, we have the skills and vision to bring
                 your ideas to life. <br />
-                <br /> At EVOCRUX, we are at the forefront of AI innovation,
-                leveraging cutting-edge technologies to transform businesses and
-                enhance user experiences. Our AI-driven solutions are designed
-                to empower organizations with the tools they need to thrive in
-                an increasingly digital world.
+                <br />
+                At EVOCRUX, we are at the forefront of AI innovation, leveraging
+                cutting-edge technologies to transform businesses and enhance
+                user experiences. Our AI-driven solutions are designed to
+                empower organizations with the tools they need to thrive in an
+                increasingly digital world.
               </p>
+              <div className="grid grid-cols-1 gap-5 h-full">
+                {[
+                  {
+                    id: 1,
+                    img: mission,
+                    title: "Our Mission",
+                    desc: "At EvoCrux, we evolve with technology and AI to drive innovation, creating sustainable solutions that solve new challenges and transform businesses and communities.",
+                  },
+                  {
+                    id: 2,
+                    img: vision,
+                    title: "Our Vision",
+                    desc: "To be a global leader in AI-driven innovation, revolutionizing industries with intelligent solutions that inspire progress, enhance human potential, and shape a sustainable future.",
+                  },
+                ].map((item) => (
+                  <div
+                    data-aos="fade-up"
+                    key={item.id}
+                    className=" h-full  gap-5 rounded-md"
+                  >
+                    <h3 className="text-2xl font-semibold">{item.title}</h3>
+                    <p className="description">{item.desc}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>

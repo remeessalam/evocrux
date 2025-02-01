@@ -33,7 +33,7 @@ export const clientDetails = {
   phone: "91-8973179735",
   phone2: "91-9600250761",
   email: "abc@xyz.com",
-  address: "ABC Street, City, Country",
+  address: "Bangalore, India - 560100 (Electronic City, IT Hub)",
 };
 
 // landing page header links

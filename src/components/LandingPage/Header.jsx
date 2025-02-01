@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div className="fixed z-40 top-0 left-0 w-full backdrop-blur-md">
-      <div className="backdrop-blur-sm bg-black/40">
+      <div className="backdrop-blur-sm bg-black/50">
         <div className="flex w-full justify-between items-center gap-5 py-5 wrapper">
           <ScrollLink
             to="banner"
@@ -25,7 +25,7 @@ const Header = () => {
               alt="logo"
               width="150"
               height="100"
-              className="h-[4rem] object-contain"
+              className="h-[4rem] w-[13rem] sm:w-[15rem] object-cover "
             />
           </ScrollLink>
           <div

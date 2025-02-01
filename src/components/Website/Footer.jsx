@@ -16,7 +16,7 @@ const Footer = () => {
             width="150"
             height="100"
             alt="logo"
-            className="h-[4.5rem] object-contain"
+            className=" w-[15rem] object-cover"
           />
           <p className="max-w-[25rem]">
             Follow us on our social media handles to keep up to date with our
@@ -27,10 +27,10 @@ const Footer = () => {
             <Link to="#">
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link to="#">
+            <Link to="https://www.instagram.com/evocrux_ai?igsh=MWQ3NDNwaHkzdHN6ZQ==">
               <AiFillInstagram className="text-2xl" />
             </Link>
-            <Link to="#">
+            <Link to="https://www.facebook.com/evocrux">
               <GrFacebookOption className="text-2xl" />
             </Link>
           </div>

@@ -141,13 +141,13 @@ const AboutUs = () => {
                   id: 1,
                   img: mission,
                   title: "Our Mission",
-                  desc: "To lead the technological revolution by providing innovative AI-driven solutions that enhance business efficiency, foster growth, and create value for our clients worldwide.",
+                  desc: "At EvoCrux, we evolve with technology and AI to drive innovation, creating sustainable solutions that solve new challenges and transform businesses and communities.",
                 },
                 {
                   id: 2,
                   img: vision,
                   title: "Our Vision",
-                  desc: "To be the world’s most trusted partner in AI technology and digital transformation, empowering businesses of all sizes to thrive in an increasingly complex and competitive landscape.",
+                  desc: "To be a global leader in AI-driven innovation, revolutionizing industries with intelligent solutions that inspire progress, enhance human potential, and shape a sustainable future.",
                 },
               ].map((item) => (
                 <div

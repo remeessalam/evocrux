@@ -10,7 +10,7 @@ const Header = () => {
   const { pathname } = useLocation();
   return (
     <div className="fixed z-40 top-0 left-0 w-full backdrop-blur-md">
-      <div className="backdrop-blur-sm bg-white/50">
+      <div className="backdrop-blur-sm bg-black/50">
         <div className="flex w-full justify-between items-center gap-5 py-5 wrapper">
           <Link to="/">
             <img
@@ -22,12 +22,12 @@ const Header = () => {
               className="h-[4rem] w-[13rem] sm:w-[15rem] object-cover"
             />
           </Link>
-          <div className="hidden lg:flex text-black items-center gap-10">
+          <div className="hidden lg:flex text-white items-center gap-10">
             {websitePagesLinks.map((link) => (
               <Link
                 key={link.id}
                 to={link.link}
-                className={`text-md cursor-pointer ${
+                className={`text-md cursor-pointer text-white ${
                   pathname === link.link && "active-link"
                 }`}
               >

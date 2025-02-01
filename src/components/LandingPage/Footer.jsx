@@ -16,7 +16,7 @@ const Footer = () => {
             alt="logo"
             width="150"
             height="100"
-            className="h-[4.5rem] object-contain"
+            className="w-[15rem] object-contain"
           />
           <div className="space-y-2 flex flex-col mt-5">
             <Link to={`mailto:${clientDetails.email}`} className="">
@@ -33,10 +33,10 @@ const Footer = () => {
             <Link>
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link>
+            <Link to="https://www.instagram.com/evocrux_ai?igsh=MWQ3NDNwaHkzdHN6ZQ==">
               <AiFillInstagram className="text-2xl" />
             </Link>
-            <Link>
+            <Link to="https://www.facebook.com/evocrux">
               <GrFacebookOption className="text-2xl" />
             </Link>
           </div>
