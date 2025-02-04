@@ -54,7 +54,7 @@ const ContactUs = () => {
               <div className="w-[3.5rem] h-[3.5rem] bg-background/20 rounded-full p-3 flex justify-center items-center">
                 <FaPhoneAlt className="text-3xl" />
               </div>
-              <p className="sm:text-lg font-medium">{clientDetails.phone}</p>
+              <p className="sm:text-lg font-medium">+{clientDetails.phone}</p>
             </Link>
             <Link
               to={`tel:${clientDetails.email}`}
