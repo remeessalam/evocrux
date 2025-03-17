@@ -4,6 +4,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
 import { allServices, clientDetails, logo } from "../../constants";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -24,14 +25,17 @@ const Footer = () => {
           </p>
 
           <div className="flex mt-3 gap-5 items-center">
-            <Link to="#">
+            <Link to={clientDetails.linkedIn}>
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link to="https://www.instagram.com/evocrux_ai?igsh=MWQ3NDNwaHkzdHN6ZQ==">
+            <Link to={clientDetails.instagram}>
               <AiFillInstagram className="text-2xl" />
             </Link>
-            <Link to="https://www.facebook.com/evocrux">
+            <Link to={clientDetails.facebook}>
               <GrFacebookOption className="text-2xl" />
+            </Link>
+            <Link to={clientDetails.x}>
+              <FaXTwitter className="text-2xl" />
             </Link>
           </div>
 
