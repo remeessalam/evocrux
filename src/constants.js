@@ -30,9 +30,9 @@ export { logo };
 // client details
 export const clientDetails = {
   whatsapp: "9110829254",
-  phone: "91-8973179735",
-  phone2: "91-9600250761",
-  email: "official.santhoshgowda@gmail.com",
+  phone: "91-9110829254",
+  // phone2: "91-9600250761",
+  email: "Info@evocrux.com",
   address:
     "Unit 101, Oxford Towers, 139 , HAL Old Airport Rd, Kodihalli, Bengaluru,Karnataka - 560008",
   linkedIn: "https://www.linkedin.com/company/evocrux-solutions/",
